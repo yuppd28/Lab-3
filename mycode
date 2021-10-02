@@ -1,0 +1,14 @@
+print('Привет')
+print('Насколько процентов ты любишь котиков?')
+while True:
+    try:
+        i = int(input('Наверное на '))
+        if i < 100:
+            print('ФУ, ты плохой человек!')
+        elif i >= 100:
+             print('Ты милый))))')
+        break
+    except ValueError:
+                    print('не так')
+input()
+
